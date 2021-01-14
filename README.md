@@ -1,7 +1,7 @@
 # login
 small login window  
   
-  current credentials:  
+  current username/password:  
   
   username = smitty  
   password = pencil  
