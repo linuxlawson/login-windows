@@ -1,2 +1,13 @@
 # login
-small login window
+small login window  
+  
+  current credentials:  
+  
+  username = smitty  
+  password = pencil  
+  
+  can be changed to whatever..
+  
+  
+  
+  
