@@ -5,8 +5,8 @@ Small login window
   
   Current username/password:  
   
-  * username = smitty  
-  * password = pencil  
+  username = smitty  
+  password = pencil  
   
   Can be changed to whatever..
   
