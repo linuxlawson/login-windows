@@ -1,14 +1,14 @@
 # login
-small login window  
+Small login window  
 
 ![Screenshot](login.png)
   
-  current username/password:  
+  Current username/password:  
   
   username = smitty  
   password = pencil  
   
-  can be changed to whatever..
+  Can be changed to whatever..
   
   
   
