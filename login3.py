@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Login Window
+# Login Window #3
 # David Lawson
 
 
@@ -17,7 +17,8 @@ root.columnconfigure(0, weight=1)
 
 
 #Main Frame
-mainframe = tk.Frame(root, highlightcolor="#BFBFBF", 
+mainframe = tk.Frame(root, highlightcolor="#BFBFBF",
+                    highlightbackground="#7F7F7F", 
                     highlightthickness=1, 
                     relief='sunken')
 mainframe.grid(sticky='nsew', padx=4, pady=4)
