@@ -18,9 +18,10 @@ root.columnconfigure(0, weight=1)
 
 #Main Frame
 mainframe = tk.Frame(root, highlightcolor="#BFBFBF", 
+                    highlightbackground="#7F7F7F", 
                     highlightthickness=1, 
                     relief='sunken')
-mainframe.grid(sticky='n', padx=4, pady=4)
+mainframe.grid(sticky='nsew', padx=4, pady=4)
 
 
 username = tk.StringVar()
@@ -57,7 +58,7 @@ pass_entry.grid(row=1, column=1, sticky='e', padx=6, pady=8)
 
 status_label = tk.Label(root, text=" Access: Pending", anchor='w', 
                         fg="#7F7F7F", bd=1, relief='sunken')
-status_label.grid(row=4, column=0, sticky='ew', padx=5, pady=2)
+status_label.grid(row=4, column=0, sticky='ew', padx=4, pady=2)
 
 
 #buttons
