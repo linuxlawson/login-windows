@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Login Window
+# Login Window #2
 # David Lawson
 
 
@@ -16,7 +16,7 @@ root.option_add("*Font", "TkDefaultFont 9")
 root.columnconfigure(0, weight=1)
 
 
-mainframe = tk.LabelFrame(root, text="Login", bd=1, relief='solid')
+mainframe = tk.LabelFrame(root, text="User Login", bd=1, relief='solid')
 mainframe.grid(row=0, column=0, sticky='n', padx=2, pady=2)
 
 
