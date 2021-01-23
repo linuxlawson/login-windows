@@ -7,8 +7,8 @@ Screenshots in images folder
 
 **Update:** Made a couple more of these (login2 and login3)  
 All are very similar, but look different.  
-Screenshots of all 3 in images folder.  
-Collect all 3!  
+Screenshots of all <s>3</s> 5 in images folder.  
+Collect all <s>3</s>5!  
 
 Note: These originally had borders on them and I mistakenly took that part of code out.  
 I have put the borders back, and updated the screenshots too.   
