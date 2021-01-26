@@ -23,6 +23,9 @@ Below is original with border.
   
   Can be changed to whatever..
   
+  These are not attached to anything, just the login forms themselves.  
+  But could be attached to something like a lockscreen, for extra security.
+  
   
   
   
