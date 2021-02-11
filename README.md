@@ -8,7 +8,7 @@ Screenshots of all 5 in images folder.
 Collect them all!!  
 
 Note: These originally had borders on them and I mistakenly took that part of code out.  
-I have put the borders back, and updated the screenshots too.   
+I have put the borders back, and updated the screenshots.   
 Below is original with border.
 
 ![Screenshot](login.png)
