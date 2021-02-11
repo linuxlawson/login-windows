@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # Login Window #3
-# David Lawson
-
 
 try:
     import Tkinter as tk
@@ -14,7 +12,7 @@ root.title("\tLogin")
 root.geometry("274x158")
 root.option_add("*Font", "TkDefaultFont 9")
 root.columnconfigure(0, weight=1)
-
+root.resizable(0,0)
 
 #Main Frame
 mainframe = tk.Frame(root, highlightcolor="#BFBFBF",
@@ -30,13 +28,11 @@ password = tk.StringVar()
 
 def check_entry():
     if username.get() == 'smitty' and password.get() == 'pencil':
-        print ("Access Granted")
         status_label = tk.Label(mainframe, text="Granted", anchor='w', 
                                 fg="#008000", bd=0, relief='sunken')
         status_label.grid(row=4, column=1, columnspan=4, sticky='w', padx=4, pady=4)
         
     else:
-        print ("Access Denied")
         status_label = tk.Label(mainframe, text="Denied\t", anchor='w', 
                                 fg="#A52A2A", bd=0, relief='sunken')
         status_label.grid(row=4, column=1, columnspan=4, sticky='w', padx=4, pady=4)
