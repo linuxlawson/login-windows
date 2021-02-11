@@ -1,11 +1,8 @@
 # Login Forms
 Username/Password Login Forms 
 
-1/23/21 **Added:** Two more (login4 and login5)  
-Screenshots in images folder.  
+There are five of these in this repo.  
 
-
-1/19/21 **Update:** Made a couple more of these (login2 and login3)  
 All are very similar, but look different.  
 Screenshots of all 5 in images folder.  
 Collect them all!!  
@@ -16,7 +13,7 @@ Below is original with border.
 
 ![Screenshot](login.png)
   
-  Current username/password:  
+  Default username/password:  
   
   username = smitty  
   password = pencil  
