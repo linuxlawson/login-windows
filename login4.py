@@ -1,19 +1,18 @@
 #!/usr/bin/python
 # Login Window #4
-# David Lawson
 
 
 try:
     import Tkinter as tk
 except:
     import tkinter as tk
- 
+
 
 root = tk.Tk()
-root.title("\tLogin")
+root.title("\tUser Login")
 root.geometry("263x188")
 root.option_add("*Font", "TkDefaultFont 9")
-
+root.resizable(0,0)
 
 #Main Frame
 mainframe = tk.Frame(root, highlightcolor="#1A1A1A",
@@ -60,7 +59,7 @@ pass_label.grid(row=2, column=0, sticky='e', padx=4, pady=6)
 pass_entry = tk.Entry(mainframe, textvariable=password, show="*")
 pass_entry.grid(row=2, column=1, sticky='e', padx=4, pady=6)
 
-status_label = tk.Label(mainframe, text="Access:", anchor='e', 
+status_label = tk.Label(mainframe, text="", anchor='e', 
                         fg="#7F7F7F", bd=0, relief='sunken')
 status_label.grid(row=4, column=0, sticky='e', padx=4, pady=4)
 
