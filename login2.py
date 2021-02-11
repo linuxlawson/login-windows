@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # Login Window #2
-# David Lawson
-
 
 try:
     import Tkinter as tk
@@ -14,11 +12,10 @@ root.title("\tLogin")
 root.geometry("272x164")
 root.option_add("*Font", "TkDefaultFont 9")
 root.columnconfigure(0, weight=1)
-
+root.resizable(0,0)
 
 mainframe = tk.LabelFrame(root, text="User Login", bd=1, relief='solid')
 mainframe.grid(row=0, column=0, sticky='n', padx=2, pady=2)
-
 
 username = tk.StringVar()
 password = tk.StringVar()
@@ -26,17 +23,9 @@ password = tk.StringVar()
 
 def check_entry():
     if username.get() == 'smitty' and password.get() == 'pencil':
-        print ("Access Granted")
-        status_label.grid_remove()
-        stat1 = tk.Label(mainframe, text=" Access: Granted", anchor='w', 
-                        fg="#7F7F7F", bd=1, relief='sunken')
-        stat1.grid(row=4, column=0, columnspan=2, sticky='ew', padx=0, pady=0)
+        status_label.config(text=" Access: Granted")
     else:
-        print ("Access Denied")
-        status_label.grid_remove()
-        stat2 = tk.Label(mainframe, text=" Access: Denied", anchor='w', 
-                        fg="#7F7F7F", bd=1, relief='sunken')
-        stat2.grid(row=4, column=0, columnspan=2, sticky='ew', padx=0, pady=0)
+        status_label.config(text=" Access: Denied")
 
 
 #username
@@ -65,7 +54,6 @@ cancel_button.bind("<Return>", (lambda event: root.destroy()))
 login_button = tk.Button(mainframe, text="Login ", command=check_entry)
 login_button.grid(row=3, column=1, sticky='e', padx=6, pady=10)
 login_button.bind("<Return>", (lambda event: check_entry()))
-
 
 
 root.protocol("WM_DELETE_WINDOW")
