@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # Login Window #3
 
 try:
@@ -15,7 +15,7 @@ root.columnconfigure(0, weight=1)
 root.resizable(0,0)
 
 #Main Frame
-mainframe = tk.Frame(root, highlightcolor="#BFBFBF",
+mainframe = tk.Frame(root, highlightcolor="#BFBFBF", 
                     highlightbackground="#7F7F7F", 
                     highlightthickness=1, 
                     relief='sunken')
