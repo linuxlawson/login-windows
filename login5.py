@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # Login Window #5
 
 
@@ -10,7 +10,7 @@ except:
 
 root = tk.Tk()
 root.title("\tUser Login")
-root.geometry("263x181")
+root.geometry("263x186")
 root.option_add("*Font", "TkDefaultFont 9")
 root.resizable(0,0)
 
