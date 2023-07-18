@@ -1,12 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Login Window #2
 
-try:
-    import Tkinter as tk
-except:
-    import tkinter as tk
+import tkinter as tk
  
-
 root = tk.Tk()
 root.title("\tLogin")
 root.geometry("272x164")
