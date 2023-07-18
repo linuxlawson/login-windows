@@ -1,13 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Login Window
 
-
-try:
-    import Tkinter as tk
-except:
-    import tkinter as tk
+import tkinter as tk
  
-
 root = tk.Tk()
 root.title("\tLogin")
 root.geometry("272x152")
@@ -36,30 +31,30 @@ def check_entry():
 
 #username
 user_label = tk.Label(mainframe, text="Username:")
-user_label.grid(row=0, column=0, sticky='w', padx=6, pady=8)
+user_label.grid(column=0, row=0, padx=6, pady=8, sticky='w')
 user_entry = tk.Entry(mainframe, textvariable=username)
-user_entry.grid(row=0, column=1, sticky='e', padx=6, pady=8)
+user_entry.grid(column=1, row=0, padx=6, pady=8, sticky='e')
 user_entry.focus_set()
 
 #password
 pass_label = tk.Label(mainframe, text="Password:")
-pass_label.grid(row=1, column=0, sticky='w', padx=6, pady=8)
+pass_label.grid(column=0, row=1, padx=6, pady=8, sticky='w')
 pass_entry = tk.Entry(mainframe, textvariable=password, show="*")
-pass_entry.grid(row=1, column=1, sticky='e', padx=6, pady=8)
+pass_entry.grid(column=1, row=1, padx=6, pady=8, sticky='e')
 
 
 status_label = tk.Label(root, text=" Access: Pending", anchor='w', 
                         fg="#7F7F7F", bd=1, relief='sunken')
-status_label.grid(row=4, column=0, sticky='ew', padx=4, pady=2)
+status_label.grid(column=0, row=4, padx=4, pady=2, sticky='ew')
 
 
 #buttons
 cancel_button = tk.Button(mainframe, text="Cancel", command=root.destroy)
-cancel_button.grid(row=3, column=1, sticky='w', padx=6, pady=8)
+cancel_button.grid(column=1, row=3, padx=6, pady=8, sticky='w')
 cancel_button.bind("<Return>", (lambda event: root.destroy()))
 
 login_button = tk.Button(mainframe, text="Login ", command=check_entry)
-login_button.grid(row=3, column=1, sticky='e', padx=6, pady=8)
+login_button.grid(column=1, row=3, padx=6, pady=8, sticky='e')
 login_button.bind("<Return>", (lambda event: check_entry()))
 
 
