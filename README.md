@@ -1,7 +1,7 @@
 ## Login Forms
-Username/Password Login Forms (5)
+Username/Password Login Forms
 
-There are five different login forms in this repo (login.py - login5.py).
+There are six different login forms in this repo (login.py - login6.py).
 
 All are very similar, but look different.  
 Screenshots of all 5 in images folder.  
