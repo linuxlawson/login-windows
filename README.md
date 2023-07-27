@@ -1,23 +1,21 @@
 ## Login Forms
-Username/Password Login Forms
+Username/Password Login Windows
 
-There are six different login forms in this repo (login.py - login6.py).
+There are six different login windows in this repo (login.py - login6.py).
 
 All are very similar, but look different.  
-Screenshots of all 5 in images folder.  
+Screenshots of all 6 in images folder.  
 Collect them all!!  
 
-Note: These originally had borders on them and I mistakenly took that part of code out.  
-I put the borders back, and updated the screenshots.   
-Below is original with border.
-
-![Screenshot](login.png)
-  
-  Default username/password:  
+Default username/password:  
   
   username = smitty  
   password = pencil  
   
   Can be changed to whatever..
+
+![Screenshot](login.png)
+  
+  
   
   
