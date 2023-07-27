@@ -1,4 +1,4 @@
-## Login Forms
+## Login Windows
 Username/Password Login Windows
 
 There are six different login windows in this repo (login.py - login6.py).
