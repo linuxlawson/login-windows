@@ -1,10 +1,10 @@
 ## Login Windows
 Username/Password Login Windows
 
-There are six different login windows in this repo (login.py - login6.py).
+There are seven different login windows in this repo (login.py - login7.py).
 
 All are very similar, but look different.  
-Screenshots of all 6 in images folder.  
+Screenshots of 6 in images folder.  
 Collect them all!!  
 
 Default username/password (change to whatever):  
